@@ -76,7 +76,7 @@ bool Trojuhelnik::jePravouhly(void){
   strany[0]=strA;
   strany[1]=strB;
   strany[2]=strC;
-  for(i=0;i<1;i++){
+  for(i=0;i<2;i++){
     if(strany[i]>strany[i+1]){
       temp=strany[i+1];
       strany[i+1]=strany[i];
